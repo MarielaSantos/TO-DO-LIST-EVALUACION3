@@ -1,0 +1,111 @@
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  padding: 10px;
+}
+
+.form input {
+  width: 90%;
+  height: 30px;
+  margin: 0.5rem;
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.form span {
+  font-size: 15px;
+  margin-right: 20px;
+  color: rgb(212, 204, 204);
+  font-family: sans-serif;
+}
+.form button {
+  padding: 0.5em 1em;
+  border: none;
+  background: rgb(86, 96, 102);
+  cursor: pointer;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+
+.validacion {
+  width: 80%;
+  color: red;
+  margin: 0 auto;
+}
+
+.lista {
+  width: 50%;
+  margin-top: 0px;
+  margin: 50px auto 0;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.tarea {
+  font-size: 20px;
+  margin: 20px 0 15px 0;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  border-radius: 10px;
+  background: rgb(86, 96, 102);
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+}
+.button {
+  border-radius: 0.5rem;
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.botonedit{
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 10px;
+  margin-left: 50px;
+  text-align: center;
+}
+.botonedit:hover{
+  background-color: green; 
+  color: black;
+}
+.botonborrar{
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 10px;
+  text-align: center;
+}
+.botonborrar:hover{
+  background-color: red; 
+  color: white;
+}
